@@ -1,0 +1,268 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Jan 21 00:06:10 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15865
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1901.402 ; gain = 425.832 ; free physical = 132 ; free virtual = 4475
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/class/top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/class/top.v:1]
+WARNING: [Synth 8-3330] design top has an empty top module
+WARNING: [Synth 8-7129] Port led[15] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1972.340 ; gain = 496.770 ; free physical = 154 ; free virtual = 4391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1990.152 ; gain = 514.582 ; free physical = 158 ; free virtual = 4394
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1990.152 ; gain = 514.582 ; free physical = 158 ; free virtual = 4394
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1990.152 ; gain = 0.000 ; free physical = 158 ; free virtual = 4394
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/class/constraints.xdc]
+Finished Parsing XDC File [/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/class/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/class/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2063.090 ; gain = 0.000 ; free physical = 142 ; free virtual = 4392
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2063.090 ; gain = 0.000 ; free physical = 142 ; free virtual = 4392
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2063.090 ; gain = 587.520 ; free physical = 167 ; free virtual = 4417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.094 ; gain = 595.523 ; free physical = 167 ; free virtual = 4417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.094 ; gain = 595.523 ; free physical = 167 ; free virtual = 4417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2071.094 ; gain = 595.523 ; free physical = 168 ; free virtual = 4419
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design top has an empty top module
+WARNING: [Synth 8-7129] Port led[15] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[14] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port led[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[15] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[14] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2071.094 ; gain = 595.523 ; free physical = 181 ; free virtual = 4436
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2145.094 ; gain = 669.523 ; free physical = 132 ; free virtual = 4361
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2145.094 ; gain = 669.523 ; free physical = 132 ; free virtual = 4361
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2155.109 ; gain = 679.539 ; free physical = 124 ; free virtual = 4353
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |IBUF  |     1|
+|2     |OBUF  |     1|
+|3     |OBUFT |    15|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.922 ; gain = 849.352 ; free physical = 137 ; free virtual = 4216
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2324.922 ; gain = 776.414 ; free physical = 137 ; free virtual = 4216
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2324.930 ; gain = 849.352 ; free physical = 138 ; free virtual = 4216
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2324.930 ; gain = 0.000 ; free physical = 138 ; free virtual = 4216
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2324.930 ; gain = 0.000 ; free physical = 266 ; free virtual = 4345
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d18a8493
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:38 . Memory (MB): peak = 2324.930 ; gain = 890.953 ; free physical = 277 ; free virtual = 4356
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1731.083; main = 1519.829; forked = 266.471
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3216.121; main = 2324.926; forked = 917.008
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2348.934 ; gain = 0.000 ; free physical = 276 ; free virtual = 4355
+INFO: [Common 17-1381] The checkpoint '/home/luis/Documents/ECE230/Lab2/week_2_first_verilog/week_2_first_verilog.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 00:06:56 2025...
