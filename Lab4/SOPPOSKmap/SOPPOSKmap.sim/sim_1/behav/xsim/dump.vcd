@@ -1,0 +1,160 @@
+$date
+   Tue Feb  4 10:50:38 2025
+$end
+
+$version
+  2024.2.0
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test $end
+$var reg 4 ! sw [3:0] $end
+$var wire 3 " led [2:0] $end
+$var integer 32 # i [31:0] $end
+$scope module uut $end
+$var wire 4 $ sw [3:0] $end
+$var wire 3 " led [2:0] $end
+$scope module naive_instance $end
+$var wire 4 $ sw [3:0] $end
+$var wire 1 % led $end
+$upscope $end
+$scope module minterm_instance $end
+$var wire 4 $ sw [3:0] $end
+$var wire 1 & led $end
+$upscope $end
+$scope module maxterm_instance $end
+$var wire 4 $ sw [3:0] $end
+$var wire 1 ' led $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+0%
+0&
+0'
+$end
+
+#20000
+b1 !
+b111 "
+b1 #
+b1 $
+1%
+1&
+1'
+
+#40000
+b10 !
+b10 #
+b10 $
+
+#60000
+b11 !
+b11 #
+b11 $
+
+#80000
+b100 !
+b100 #
+b100 $
+
+#100000
+b101 !
+b0 "
+b101 #
+b101 $
+0%
+0&
+0'
+
+#120000
+b110 !
+b111 "
+b110 #
+b110 $
+1%
+1&
+1'
+
+#140000
+b111 !
+b0 "
+b111 #
+b111 $
+0%
+0&
+0'
+
+#160000
+b1000 !
+b1000 #
+b1000 $
+
+#180000
+b1001 !
+b1001 #
+b1001 $
+
+#200000
+b1010 !
+b111 "
+b1010 #
+b1010 $
+1%
+1&
+1'
+
+#220000
+b1011 !
+b0 "
+b1011 #
+b1011 $
+0%
+0&
+0'
+
+#240000
+b1100 !
+b111 "
+b1100 #
+b1100 $
+1%
+1&
+1'
+
+#260000
+b1101 !
+b0 "
+b1101 #
+b1101 $
+0%
+0&
+0'
+
+#280000
+b1110 !
+b111 "
+b1110 #
+b1110 $
+1%
+1&
+1'
+
+#300000
+b1111 !
+b0 "
+b1111 #
+b1111 $
+0%
+0&
+0'

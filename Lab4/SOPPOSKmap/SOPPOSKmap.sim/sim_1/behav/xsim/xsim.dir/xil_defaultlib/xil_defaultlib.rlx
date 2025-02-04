@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab4/SOPPOSKmap/SOPPOSKmap.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab4/class/maxterm.v,1738653761,verilog,,/home/luis/Documents/BSU/ECE230L/Lab4/class/minterm.v,,maxterm,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab4/class/minterm.v,1738653791,verilog,,/home/luis/Documents/BSU/ECE230L/Lab4/class/naive.v,,minterm,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab4/class/naive.v,1738653758,verilog,,/home/luis/Documents/BSU/ECE230L/Lab4/class/top.v,,naive,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab4/class/test.v,1738509558,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab4/class/top.v,1738686074,verilog,,/home/luis/Documents/BSU/ECE230L/Lab4/class/test.v,/home/luis/Documents/BSU/ECE230L/Lab4/class/naive.v;/home/luis/Documents/BSU/ECE230L/Lab4/class/minterm.v;/home/luis/Documents/BSU/ECE230L/Lab4/class/maxterm.v,top,,,,,,,,
