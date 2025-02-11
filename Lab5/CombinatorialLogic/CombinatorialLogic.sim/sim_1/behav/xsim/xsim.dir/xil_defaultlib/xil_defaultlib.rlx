@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab5/CombinatorialLogic/CombinatorialLogic.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v,1739153292,verilog,,/home/luis/Documents/BSU/ECE230L/Lab5/class/full_adder.v,,adder,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab5/class/full_adder.v,1739298631,verilog,,/home/luis/Documents/BSU/ECE230L/Lab5/class/light.v,,full_adder,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab5/class/light.v,1739153177,verilog,,/home/luis/Documents/BSU/ECE230L/Lab5/class/top.v,,light,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab5/class/test.v,1739155946,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab5/class/top.v,1739157253,verilog,,/home/luis/Documents/BSU/ECE230L/Lab5/class/test.v,,top,,,,,,,,

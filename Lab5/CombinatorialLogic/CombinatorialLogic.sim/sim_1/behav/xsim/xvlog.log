@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab5/class/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab5/class/light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module light
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab5/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab5/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

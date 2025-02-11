@@ -1,0 +1,29 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 5 into 'led' is out of bounds [/home/luis/Documents/BSU/ECE230L/Lab5/class/test.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/top.v" Line 2. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/light.v" Line 1. Module light doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/full_adder.v" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/top.v" Line 2. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/light.v" Line 1. Module light doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/full_adder.v" Line 2. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/luis/Documents/BSU/ECE230L/Lab5/class/adder.v" Line 1. Module adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.light
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
