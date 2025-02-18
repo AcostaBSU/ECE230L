@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab6/class/half_sub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_sub
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab6/class/ones_compliment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module ones_comp_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab6/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab6/class/twos_compliment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'full_adder' [/home/luis/Documents/BSU/ECE230L/Lab6/class/twos_compliment.v:1]
+INFO: [VRFC 10-311] analyzing module twos_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab6/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
