@@ -1,0 +1,33 @@
+$date
+   Sun Feb 23 13:53:55 2025
+$end
+
+$version
+  2024.2.0
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test $end
+$var reg 16 ! sw [15:0] $end
+$var wire 16 " led [15:0] $end
+$scope module uut $end
+$var wire 16 # sw [15:0] $end
+$var wire 16 " led [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b1111111111111111 "
+b0 #
+$end
+
+#1000
+b1111111111111111 !
+b1010101010101010 "
+b1111111111111111 #
