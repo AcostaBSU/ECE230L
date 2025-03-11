@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab8/class/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab8/class/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab8/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab8/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

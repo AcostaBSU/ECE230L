@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab8/MuxAndDemux/MuxAndDemux.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab8/class/demux.v,1741555992,verilog,,/home/luis/Documents/BSU/ECE230L/Lab8/class/mux.v,,demux,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab8/class/mux.v,1741554216,verilog,,/home/luis/Documents/BSU/ECE230L/Lab8/class/top.v,,mux,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab8/class/test.v,1741553149,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab8/class/top.v,1741554987,verilog,,/home/luis/Documents/BSU/ECE230L/Lab8/class/test.v,,top,,,,,,,,

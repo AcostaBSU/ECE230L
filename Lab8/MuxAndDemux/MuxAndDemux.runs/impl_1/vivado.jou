@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Mar  9 15:34:38 2025
+# Process ID         : 27054
+# Current directory  : /home/luis/Documents/BSU/ECE230L/Lab8/MuxAndDemux/MuxAndDemux.runs/impl_1
+# Command line       : vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file           : /home/luis/Documents/BSU/ECE230L/Lab8/MuxAndDemux/MuxAndDemux.runs/impl_1/top.vdi
+# Journal file       : /home/luis/Documents/BSU/ECE230L/Lab8/MuxAndDemux/MuxAndDemux.runs/impl_1/vivado.jou
+# Running On         : luis-UX461UA
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+# CPU Frequency      : 2433.219 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8179 MB
+# Swap memory        : 1746 MB
+# Total Virtual      : 9926 MB
+# Available Virtual  : 7076 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
