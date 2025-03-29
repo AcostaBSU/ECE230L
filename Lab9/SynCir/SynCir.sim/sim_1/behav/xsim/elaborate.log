@@ -1,0 +1,14 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'data' [/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v:27]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'A' [/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v:29]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'B' [/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v:30]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'C' [/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v:31]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'D' [/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

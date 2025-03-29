@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Stopped at time : 24 ns : File "/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v" Line 97
+Stopped at time : 26 ns : File "/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v" Line 104
+Stopped at time : 28 ns : File "/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v" Line 111
+Stopped at time : 30 ns : File "/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v" Line 118
+PASSED test
+$finish called at time : 31 ns : File "/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v" Line 124

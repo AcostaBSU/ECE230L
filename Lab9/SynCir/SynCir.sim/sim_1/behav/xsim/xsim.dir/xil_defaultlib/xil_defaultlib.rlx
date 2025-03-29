@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab9/SynCir/SynCir.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/byte_memory.v,1743198014,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/d_latch.v,,byte_memory,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/d_latch.v,1743210328,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/demux.v,,d_latch;sr_latch,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/demux.v,1743196482,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v,,demultiplexer,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/memory_system.v,1743210320,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/mux.v,,memory_system,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/mux.v,1743207277,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/top.v,,multiplexer,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v,1742064426,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab9/class/top.v,1743208209,verilog,,/home/luis/Documents/BSU/ECE230L/Lab9/class/test.v,,top,,,,,,,,

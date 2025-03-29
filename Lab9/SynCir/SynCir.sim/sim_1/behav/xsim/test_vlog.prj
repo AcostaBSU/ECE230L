@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../class/byte_memory.v" \
+"../../../../../class/d_latch.v" \
+"../../../../../class/demux.v" \
+"../../../../../class/memory_system.v" \
+"../../../../../class/mux.v" \
+"../../../../../class/top.v" \
+"../../../../../class/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
