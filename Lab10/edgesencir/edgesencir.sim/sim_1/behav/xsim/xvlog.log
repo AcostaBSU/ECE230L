@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab10/class/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab10/class/jkff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jkff
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab10/class/tff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tff
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab10/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

@@ -1,0 +1,7 @@
+Breakpoint File Version 1.0
+35,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"
+45,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"
+24,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"
+21,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"
+31,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"
+42,true,"/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v"

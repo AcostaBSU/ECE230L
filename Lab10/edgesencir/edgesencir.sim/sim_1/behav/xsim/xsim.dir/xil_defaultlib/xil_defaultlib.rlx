@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab10/class/dff.v,1743475390,verilog,,/home/luis/Documents/BSU/ECE230L/Lab10/class/jkff.v,,dff,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab10/class/jkff.v,1743479566,verilog,,/home/luis/Documents/BSU/ECE230L/Lab10/class/tff.v,,jkff,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v,1743283735,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab10/class/tff.v,1743476438,verilog,,/home/luis/Documents/BSU/ECE230L/Lab10/class/top.v,,tff,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab10/class/top.v,1743477637,verilog,,/home/luis/Documents/BSU/ECE230L/Lab10/class/test.v,,top,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab10/edgesencir/edgesencir.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
