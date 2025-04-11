@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab11/class/binary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab11/class/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab11/class/onehot.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_hot
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab11/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/luis/Documents/BSU/ECE230L/Lab11/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

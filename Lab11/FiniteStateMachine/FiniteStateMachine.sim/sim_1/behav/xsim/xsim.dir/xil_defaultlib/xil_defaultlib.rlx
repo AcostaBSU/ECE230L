@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/luis/Documents/BSU/ECE230L/Lab11/FiniteStateMachine/FiniteStateMachine.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab11/class/binary.v,1744127929,verilog,,/home/luis/Documents/BSU/ECE230L/Lab11/class/dff.v,,binary,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab11/class/dff.v,1743992388,verilog,,/home/luis/Documents/BSU/ECE230L/Lab11/class/onehot.v,,dff,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab11/class/onehot.v,1744126755,verilog,,/home/luis/Documents/BSU/ECE230L/Lab11/class/top.v,,one_hot,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab11/class/test.v,1743992388,verilog,,,,test,,,,,,,,
+/home/luis/Documents/BSU/ECE230L/Lab11/class/top.v,1744093584,verilog,,/home/luis/Documents/BSU/ECE230L/Lab11/class/test.v,,top,,,,,,,,
